@@ -1,0 +1,27 @@
+site_name: 3zik Self-Study Portfolio
+site_url: https://3zik.github.io
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - toc.integrate
+    - content.code.annotate
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Self-Study:
+      - Mathematical Statistics:
+          - Overview: self-study/mathematical-statistics/index.md
+          - Chapter 1: self-study/mathematical-statistics/chapter1.md
+      - Stochastic Processes: self-study/stochastic-processes/index.md
+      - Quantitative Finance: self-study/quantitative-finance/index.md
+      - Machine Learning: self-study/machine-learning/index.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
