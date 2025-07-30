@@ -1,5 +1,6 @@
 site_name: 3zik Self-Study Portfolio
-site_url: https://3zik.github.io
+site_url: https://ethanfurman.me
+use_directory_urls: true
 theme:
   name: material
   features:
