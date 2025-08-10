@@ -1,3 +1,3 @@
-# Welcome to 3zik's Self-Study Portfolio
+# Self-Study Portfolio
 
-This site contains structured, self-guided coursework in advanced math, physics, and finance. Explore each topic to see notes, problem sets, code, and more.
+This site contains my self-guided coursework in math, physics, and finance. See notes, problem sets, and code.
