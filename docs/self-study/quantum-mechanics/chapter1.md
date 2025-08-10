@@ -1,3 +1,3 @@
-# Shankar hapter 1: Mathematical Introduction
+# Shankar Chapter 1: Mathematical Introduction
 
 Hello World!
