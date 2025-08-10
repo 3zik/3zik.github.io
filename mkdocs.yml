@@ -1,4 +1,4 @@
-site_name: 3zik Self-Study Portfolio
+site_name: Ethan Furman Personal Site
 site_url: https://ethanfurman.me
 use_directory_urls: true
 theme:
@@ -14,12 +14,9 @@ theme:
 nav:
   - Home: index.md
   - Self-Study:
-      - Mathematical Statistics:
-          - Overview: self-study/mathematical-statistics/index.md
-          - Chapter 1: self-study/mathematical-statistics/chapter1.md
-      - Stochastic Processes: self-study/stochastic-processes/index.md
-      - Quantitative Finance: self-study/quantitative-finance/index.md
-      - Machine Learning: self-study/machine-learning/index.md
+      - Quantum Mechanics:
+          - Overview: self-study/quantum-mechanics/index.md
+          - Chapter 1: self-study/quantum-mechanics/chapter1.md
 
 markdown_extensions:
   - admonition
