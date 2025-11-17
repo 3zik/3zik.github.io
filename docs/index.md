@@ -1,3 +1,3 @@
 # Self-Study Portfolio
 
-This site contains my self-guided coursework in math, physics, and finance. See notes, problem sets, and code.
+This site contains my self-guided coursework in physics and math. See notes, problem sets, and code.
