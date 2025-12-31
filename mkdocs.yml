@@ -3,6 +3,7 @@ site_url: https://ethanfurman.me
 use_directory_urls: true
 theme:
   name: dracula
+  favicon: assets/images/favicon.png
   features:
     - navigation.tabs
     - navigation.top
