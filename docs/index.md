@@ -4,3 +4,4 @@ Welcome to my website! I'm a dual-degree BS/MS student at Haverford College and 
 
 I'm currently doing research at Bryn Mawr College with the [Nanomaterials and Spintronics Group](https://www.brynmawr.edu/XMCheng) and in associate with the [Center for Quantum Materials and Sensing](https://www.brynmawr.edu/academics/centers-institutes-projects/qmsec-center/people).
 
+Feel free to [contact me here](contact.md).
