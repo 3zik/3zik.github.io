@@ -3,7 +3,7 @@
 ### Hardware-Aware Optimization of a GNN GPU Workload
 I am studying the performance behavior of a graph neural network workload on modern GPUs, with an emphasis on how irregular graph computation maps to GPU architectures.
 
-Tools: PyTorch, CUDA, Nsight
+Tools: PyTorch, CUDA, Nsight, Triton    
 
 Dates: Oct 2025 - Present
 
