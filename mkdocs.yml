@@ -14,9 +14,17 @@ theme:
 nav:
   - Home: index.md
   - Self-Study:
-      - Quantum Mechanics:
-          - Overview: self-study/quantum-mechanics/index.md
-          - Chapter 1: self-study/quantum-mechanics/chapter1.md
+      - ML:
+          - GNNs: self-study/ML/GNN.md
+  - Research:
+      - Magnetic Skyrmions: research/skyrmions.md
+      - Thin Film Fabrication and Characterization: research/thin_films.md
+      - Magnetic Proximity Effect: research/mpe.md
+  - Projects:
+      - Phonon-Based Calculations of Graphene's Heat Capacity: projects/graphene.md
+  - Notes:
+      - Physics: notes/physics.md
+      - CS: notes/cs.md
 
 markdown_extensions:
   - admonition
