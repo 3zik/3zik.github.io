@@ -2,7 +2,7 @@ site_name: Ethan Furman Personal Site
 site_url: https://ethanfurman.me
 use_directory_urls: true
 theme:
-  name: material
+  name: dracula
   features:
     - navigation.tabs
     - navigation.top
