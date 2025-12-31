@@ -10,4 +10,4 @@ Feel free to [contact me here](contact.md).
 
 ## I'm Currently Working on...
 
-- Profiling and optimizing a graph neural network workload on GPUs, with a focus on memory behavior, kernel efficiency, and hardware-aware ML performance.
+> Profiling and optimizing a graph neural network workload on GPUs, with a focus on memory behavior, kernel efficiency, and hardware-aware ML performance.
