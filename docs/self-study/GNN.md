@@ -1,3 +1,3 @@
 # GNNs
 
-Graph Nueral Network
+Graphs!
