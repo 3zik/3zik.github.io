@@ -13,13 +13,13 @@ theme:
 
 nav:
   - Home: index.md
-  - Self-Study:
+  - Self-Study: self_study.md
       - GNNs: self-study/GNN.md
-  - Research:
+  - Research: research.md
       - Magnetic Skyrmions: research/skyrmions.md
       - Thin Film Fabrication and Characterization: research/thin_films.md
       - Magnetic Proximity Effect: research/mpe.md
-  - Projects:
+  - Projects: projects.md
       - Phonon-Based Calculations of Graphene's Heat Capacity: projects/graphene.md
   - Contact: contact.md
 
