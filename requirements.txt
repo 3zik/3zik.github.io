@@ -1,0 +1,4 @@
+mkdocs
+mkdocs-dracula-theme
+mkdocs-material
+mkdocs-awesome-pages-plugin
