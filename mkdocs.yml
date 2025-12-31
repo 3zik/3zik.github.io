@@ -13,7 +13,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Self-Study: self_study.md
+  - Self-Study:
       - GNNs: self-study/GNN.md
   - Research:
       - Magnetic Skyrmions: research/skyrmions.md
