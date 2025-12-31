@@ -1,3 +1,3 @@
-# Self-Study Portfolio
+# Ethan Furman
 
-This site contains my self-guided coursework in physics and math. See notes, problem sets, and code.
+This site contains my personal projects, research work, coursework, and self-guided study in ML, CS, and physics. See notes, problem sets, and code.
