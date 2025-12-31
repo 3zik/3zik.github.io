@@ -15,7 +15,7 @@ nav:
   - Home: index.md
   - Self-Study:
       - ML:
-          - GNNs: self-study/ML/GNN.md
+          - GNNs: self-study/GNN.md
   - Research:
       - Magnetic Skyrmions: research/skyrmions.md
       - Thin Film Fabrication and Characterization: research/thin_films.md
