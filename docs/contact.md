@@ -1,6 +1,4 @@
-# About Me
-
-## Contact
+# Contact
 
 efurman \[AT\] haverford.edu
 
