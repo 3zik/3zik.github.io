@@ -2,6 +2,8 @@
 
 ### Physics-Informed Neural Networks as Numerical Solvers for the Schrödinger Equation
 
+Dates: Jan 2026 - Present
+
 ### Phonon-Based Calculations of Graphene's Heat Capcity
 Developed analytical and numerical phonon models for graphene by constructing and diagonalizing the dynamical matrix of a honeycomb lattice. Computed full phonon dispersion relations including flexural (ZA) modes and implemented Bose–Einstein-based heat capacity calculations in Python. Validated results against experimental data and DFT literature, reproducing characteristic low-temperature T² scaling and analyzing anharmonic effects at high temperatures. Presented my findings in a ten-minute talk.
 
