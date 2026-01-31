@@ -1,11 +1,6 @@
 # Projects
 
-### Hardware-Aware Optimization of a GNN GPU Workload
-I am studying the performance behavior of a graph neural network workload on modern GPUs, with an emphasis on how irregular graph computation maps to GPU architectures.
-
-Tools: PyTorch, CUDA, Nsight, Triton    
-
-Dates: Oct 2025 - Present
+### Physics-Informed Neural Networks as Numerical Solvers for the Schrödinger Equation
 
 ### Phonon-Based Calculations of Graphene's Heat Capcity
 Developed analytical and numerical phonon models for graphene by constructing and diagonalizing the dynamical matrix of a honeycomb lattice. Computed full phonon dispersion relations including flexural (ZA) modes and implemented Bose–Einstein-based heat capacity calculations in Python. Validated results against experimental data and DFT literature, reproducing characteristic low-temperature T² scaling and analyzing anharmonic effects at high temperatures. Presented my findings in a ten-minute talk.
