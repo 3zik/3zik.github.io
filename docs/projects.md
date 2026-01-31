@@ -1,4 +1,4 @@
-# Projects
+# Project Portfolio
 
 ### Physics-Informed Neural Networks as Numerical Solvers for the Schrödinger Equation
 
