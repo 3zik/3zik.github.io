@@ -14,7 +14,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Self-Study: self_study.md
   - Research:
       - Overview: research/overview.md
       - Magnetic Skyrmions: research/skyrmions.md
