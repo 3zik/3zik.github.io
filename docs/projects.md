@@ -24,7 +24,7 @@ Built a [finite-difference eigenvalue solver in Python](https://github.com/3zik/
 Tools: Python, NumPy, SciPy, Numerical Linear Algebra, Quantum Mechanics
 
 ### Comparing ML Algorithm Detection for Development of an Artificially Intelligent Radiologist
-Developed and compared multiple ML models for radiology (ResNets, DenseNets) using Stanford’s MURA dataset of 40,561 MSK radiographs. Performed statistical evaluation (Cohen’s Kappa, ROC curves, AUROC, McNemar’s Test) and visualized AI-generated data. Produced a [written research report]({https://docs.google.com/document/d/1XmtsKVXY2p167GwlfRv6FLQC71NyeE0_zyXoMMfSyzE/view?tab=t.0) and presented findings in a ten-minute talk.
+Developed and compared multiple ML models (ResNets, DenseNets) for radiology image classification using Stanford’s MURA dataset of 40,561 MSK radiographs. Performed statistical evaluation (Cohen’s Kappa, ROC curves, AUROC, McNemar’s Test) to analyze model efficacy. Produced a [written research report]({https://docs.google.com/document/d/1XmtsKVXY2p167GwlfRv6FLQC71NyeE0_zyXoMMfSyzE/view?tab=t.0) and presented findings in a ten-minute talk.
 
 Tools: Python, TensorFlow, Keras, OpenCV, scikit-learn, Matplotlib
 
