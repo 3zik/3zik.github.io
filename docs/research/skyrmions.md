@@ -10,7 +10,7 @@ To study these phenomena, I develop large-scale micromagnetic models using the G
 
 This research contributes to a broader effort to understand how topological magnetic structures behave in engineered materials and how they may be controlled for future information technologies. Beyond classical spintronics applications, theoretical work by **Naoto Nagaosa** and **Yoshinori Tokura** has also proposed that skyrmions could potentially serve as platforms for quantum information processing, including possible realizations of topologically robust qubits.
 
-## Presentations
+## Conference Presentations
 
 **Furman, E., Kirk, A., Hou, Y., Carroll, T., Buchanan, K., Cheng, X. M. (2025).**  
 *Micromagnetic Simulations of Field-Driven Antiferromagnetically Coupled Skyrmion Pairs.*  
@@ -20,12 +20,9 @@ Poster presented at the SSR Poster Session, Bryn Mawr College. Also presented at
 *Micromagnetic Simulations of Field-Driven Antiferromagnetically-Coupled Skyrmions.*  
 Talk presented at the Physics Research Symposium, Bryn Mawr College.
 
+**Haverford KINSC Research Symposium (2025)**  
+Research presentation.
+
 **Furman, E. (2026).**  
 *Micromagnetic Simulations of Field-Driven Antiferromagnetically-Coupled Skyrmions.*  
 Abstract accepted for an undergraduate oral presentation at the APS March Meeting.
-
-## Abstract (APS March Meeting 2026)
-
-Magnetic skyrmions are chiral spin textures with potential applications in spintronic devices and quantum computing. The discovery of a topological spin memory effect in Co/Gd/Pt multilayers demonstrated the robust topological protection of antiferromagnetically coupled skyrmion pairs. In this work, micromagnetic simulations are used to study the evolution of spin configurations in multilayer systems under applied magnetic fields. A multilayer model was constructed in MuMax³ to simulate the magnetic behavior of the system, allowing layer-resolved magnetization maps to be analyzed. The simulations reveal antiferromagnetic coupling between adjacent layers and reproduce experimentally observed changes in skyrmion size following pulsed magnetic fields. These results help clarify the mechanisms governing field-driven dynamics of antiferromagnetically coupled skyrmions.
-
-*Work supported by NSF ExpandQISE (#2427091).*
