@@ -1,8 +1,8 @@
 # Project Portfolio
 
-### Prediction Market Platform
+### 4cast Prediction Market Platform
 
-- Built a [prediction market platform][https://prediction-market-v1-six.vercel.app/] using an LMSR automated market maker with bounded-loss guarantees.
+- Built a [prediction market platform](https://prediction-market-v1-six.vercel.app/) using an LMSR automated market maker with bounded-loss guarantees.
 - Designed a PostgreSQL trading ledger and settlement system supporting multi-outcome markets and portfolio PnL tracking.
 - Developed Monte Carlo simulations (500+ random trades) to test liquidity stability and verify theoretical market-maker bounds.
 - Implemented user performance analytics, ROI metrics, and leaderboard ranking algorithms.
