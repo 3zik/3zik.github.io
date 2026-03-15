@@ -27,3 +27,4 @@ markdown_extensions:
   - codehilite
   - toc:
       permalink: false
+  - attr_list
