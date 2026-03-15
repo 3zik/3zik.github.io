@@ -2,15 +2,12 @@
 
 ### 4cast Prediction Market Platform
 
-- Built a [prediction market platform](https://prediction-market-v1-six.vercel.app/) using an LMSR automated market maker with bounded-loss guarantees.
-- Designed a PostgreSQL trading ledger and settlement system supporting multi-outcome markets and portfolio PnL tracking.
-- Developed Monte Carlo simulations (500+ random trades) to test liquidity stability and verify theoretical market-maker bounds.
-- Implemented user performance analytics, ROI metrics, and leaderboard ranking algorithms.
+Built a [prediction market platform](https://prediction-market-v1-six.vercel.app/) using an LMSR automated market maker with bounded-loss guarantees. Designed a PostgreSQL trading ledger and settlement system supporting multi-outcome markets and portfolio PnL tracking. Developed Monte Carlo simulations (500+ random trades) to test liquidity stability and verify theoretical market-maker bounds. Implemented user performance analytics, ROI metrics, and leaderboard ranking algorithms.
 
 Dates: Feb 2026 - Present
 
 ### Phonon-Based Calculations of Graphene's Heat Capcity
-Developed analytical and numerical phonon models for graphene by constructing and diagonalizing the dynamical matrix of a honeycomb lattice. Computed full phonon dispersion relations including flexural (ZA) modes and implemented Bose–Einstein-based heat capacity calculations in Python. Validated results against experimental data and DFT literature, reproducing characteristic low-temperature T² scaling and analyzing anharmonic effects at high temperatures. Presented my findings in a ten-minute talk.
+[Developed analytical and numerical phonon models for graphene](docs\documents\ethan_graphene.pdf) by constructing and diagonalizing the dynamical matrix of a honeycomb lattice. Computed full phonon dispersion relations including flexural (ZA) modes and implemented Bose–Einstein-based heat capacity calculations in Python. Validated results against experimental data and DFT literature, reproducing characteristic low-temperature T² scaling and analyzing anharmonic effects at high temperatures. Presented my findings in a ten-minute talk.
 
 Tools: Python, Phonons, Lattice Modeling
 
