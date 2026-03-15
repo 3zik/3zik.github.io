@@ -10,8 +10,8 @@ Feel free to [contact me here](contact.md).
 
 ## I'm Currently Working on...
 
-> Studying the Magnetic Proximity Effect in magnetic multilayer systems
+> Studying the Magnetic Proximity Effect in multilayer systems
 
-> Applying Neural Networks to solve the Schrodinger Equation
+> Applying Computational Methods to Quantum Physics
 
-> Learning more about CUDA and GPU Acceleration
+> Learning more about Systems Programming
