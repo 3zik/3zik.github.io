@@ -1,5 +1,8 @@
 # Project Portfolio
 
+### limit order book
+Designing and building a price-time priority matching engine in C++20. I am currently constructing v1.0 by implementing GTC, IOC, FOK, Market, and Good-For-Day orders. Afterwards, I look forward to optimizing for speed and low latency.
+
 ### 4cast Prediction Market Platform
 
 Built a [prediction market platform](https://prediction-market-v1-six.vercel.app/){:target="_blank"} using an LMSR automated market maker with bounded-loss guarantees. Designed a PostgreSQL trading ledger and settlement system supporting multi-outcome markets and portfolio PnL tracking. Developed Monte Carlo simulations (500+ random trades) to test liquidity stability and verify theoretical market-maker bounds. Implemented user performance analytics, ROI metrics, and leaderboard ranking algorithms.
