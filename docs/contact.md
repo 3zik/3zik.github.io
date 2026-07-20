@@ -8,3 +8,5 @@
 ## Clubs I'm in:
 * Haverford [Big Donkey Ultimate Frisbee](https://www.instagram.com/donkeyultimate/){:target="_blank"}
 * Quiz Bowl 
+* Chess
+* Jazz Piano
