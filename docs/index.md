@@ -1,6 +1,6 @@
 # Ethan Furman
 
-Welcome to my website! I’m a dual-degree BS/MS student at Haverford College and Bryn Mawr College with a background in condensed matter physics, a growing interest in ML systems, and an increasing focus on quantitative and systems-level software development.
+Welcome to my website! I’m a dual-degree BS/MS student at Haverford College and Bryn Mawr College with a background in condensed matter physics, with an increasing focus on quantitative and systems-level software development.
 
 I'm currently working as a DOE SULI Intern at Brookhaven National Laboratory with the CMPMSD & Condensed Matter Theory Group, advised by Dr. Weiguo Yin. I started in June 2026 and the work is ongoing.
 
@@ -16,4 +16,4 @@ Feel free to [contact me here](contact.md).
 
 > Applying ML & Variational Monte Carlo Methods to Quantum Physics
 
-> Building and Benchmarking Low-Latency C++ Systems (Limit Order Books, Matching Engines)
+> Building and Benchmarking Low-Latency C++ Systems
