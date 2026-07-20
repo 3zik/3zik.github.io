@@ -72,6 +72,6 @@ Dates: Feb 2026 - Present
 
 Built a [Variational Monte Carlo solver](https://github.com/3zik/Ising_VMC){:target="_blank"} for the 1D transverse-field Ising model, using a Restricted Boltzmann Machine as a variational wavefunction ansatz. Trained the ansatz via Metropolis-Hastings sampling and gradient-based optimization, and validated the results against exact diagonalization.
 
-### AI Beamline Copilot (NSLS-II)
+### AI Beamline Copilot (2026 DOE AI Jam - NSLS-II)
 
-Designed a documentation-grounded assistant for Bluesky/Ophyd/Queue Server beamline workflows, combining a retrieval pipeline over an internal documentation corpus with local LLM generation. Built a multi-page interface for chat, documentation search, code explanation, plan generation, and troubleshooting, along with an evaluation harness to assess response quality.
+For BNL's DOE AI Jam, I leveraged OpenAI's Enterprise models to design a documentation-grounded assistant for the NSLS-II's Bluesky/Ophyd/Queue Server beamline workflows, combining a retrieval pipeline over an internal documentation corpus with local LLM generation. Built a multi-page interface for chat, documentation search, code explanation, plan generation, and troubleshooting, along with an evaluation harness to assess response quality.
