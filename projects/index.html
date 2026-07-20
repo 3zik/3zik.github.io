@@ -91,6 +91,14 @@
     </li>
                             
     <li class="drac-box-ternary">
+        <a href="../research/atomistic_simulations/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Atomistic Simulations & Monte Carlo Methods
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
         <a href="../research/skyrmions/"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
@@ -202,11 +210,24 @@
                 <section class="p-md-5 section-content">
     <article>
         <p><h1 id="project-portfolio">Project Portfolio</h1>
-<h3 id="limit-order-book">limit order book</h3>
-<p>Designing and building a price-time priority matching engine in C++20. I am currently constructing v1.0 by implementing GTC, IOC, FOK, Market, and Good-For-Day orders. Afterwards, I look forward to optimizing for speed and low latency.</p>
-<h3 id="4cast-prediction-market-platform">4cast Prediction Market Platform</h3>
-<p>Built a <a href="https://prediction-market-v1-six.vercel.app/" target="_blank">prediction market platform</a> using an LMSR automated market maker with bounded-loss guarantees. Designed a PostgreSQL trading ledger and settlement system supporting multi-outcome markets and portfolio PnL tracking. Developed Monte Carlo simulations (500+ random trades) to test liquidity stability and verify theoretical market-maker bounds. Implemented user performance analytics, ROI metrics, and leaderboard ranking algorithms.</p>
-<p>Dates: Feb 2026 - Present</p>
+<h2 id="systems-quant-dev-software-engineering">Systems, Quant Dev &amp; Software Engineering</h2>
+<h3 id="c-limit-order-book-matching-engine">C++ Limit Order Book &amp; Matching Engine</h3>
+<p>Building a <a href="https://github.com/3zik/limit-order-book-v1" target="_blank">C++20 limit order book and matching engine</a> with price-time priority, modeled on the matching logic used by real equities and futures exchanges.</p>
+<p>Price ladders are stored as two <code>std::map</code>s (one per side), ordered so the inside market is always at <code>begin()</code>, with a FIFO <code>std::list</code> queue per price level for time priority. Order lookup, cancellation, and modification are O(1) via an <code>std::unordered_map</code> keyed on order ID, and a per-price aggregate cache lets Fill-or-Kill orders check fillability in O(1) before ever touching the book.</p>
+<p>The engine supports five order types — GTC, IOC, FOK, Market, and Good-For-Day — with partial fills, atomic FOK rejection, per-trade attribution, and an aggregated L2 depth snapshot. A background thread prunes Good-For-Day orders at end of day using a condition-variable timed wait with atomic shutdown signaling.</p>
+<p>Correctness is verified with a GoogleTest scenario suite, and concurrency is verified with a ThreadSanitizer stress harness. Micro-benchmarks (-O2, 200K operations, allocation excluded) show roughly 180ns p50 to add an order, 135ns p50 to cancel, 260ns p50 for a full match, and about 3.4M adds/sec of throughput.</p>
+<p>This is v1.0 and still in progress — a latency-focused v2 is next.</p>
+<p>Tools: C++20, STL, GoogleTest, ThreadSanitizer</p>
+<h3 id="c-prime-generation-sieves">C++ Prime Generation &amp; Sieves</h3>
+<p>Implementing and benchmarking a series of classic prime-generation algorithms in <a href="https://github.com/3zik/primes" target="_blank">C++</a> — trial division, the Sieve of Eratosthenes, the Sieve of Sundaram, the Sieve of Atkin, and a linear Euler sieve — and comparing their theoretical complexity against measured performance. The next step is porting the fastest of these down to hand-written LLVM IR to see what further optimizations are possible.</p>
+<p>Tools: C++, CMake</p>
+<h3 id="embedded-maze-game-carduino">Embedded Maze Game (C++/Arduino)</h3>
+<p>Built an <a href="https://github.com/3zik/labyrinth-game" target="_blank">Arduino-based maze game</a> using an 8x8 LED matrix and an IMU accelerometer. At runtime, the game procedurally generates a random maze with a DFS carving algorithm and verifies it's solvable with a DFS pathfinding check before play starts. Navigation is tilt-based — accelerometer thresholds map to discrete movement commands — and the LED matrix renders walls, player, and exit in real time using differential blink rates.</p>
+<p>Wrote this up as an academic paper.</p>
+<!-- TODO: confirm the semester -- believed Spring 2026 -->
+
+<p>Tools: C++, Arduino, IMU/Accelerometer, LED Matrix</p>
+<h2 id="computational-quantitative-physics">Computational &amp; Quantitative Physics</h2>
 <h3 id="phonon-based-calculations-of-graphenes-heat-capcity">Phonon-Based Calculations of Graphene's Heat Capcity</h3>
 <p><a href="../documents/ethan_graphene.pdf" target="_blank">Developed analytical and numerical phonon models for graphene</a> by constructing and diagonalizing the dynamical matrix of a honeycomb lattice. Computed full phonon dispersion relations including flexural (ZA) modes and implemented Bose–Einstein-based heat capacity calculations in Python. Validated results against experimental data and DFT literature, reproducing characteristic low-temperature T² scaling and analyzing anharmonic effects at high temperatures. Presented my findings in a ten-minute talk.</p>
 <p>Tools: Python, Phonons, Lattice Modeling</p>
@@ -221,7 +242,15 @@
 <h3 id="comparing-ml-algorithm-detection-for-development-of-an-artificially-intelligent-radiologist">Comparing ML Algorithm Detection for Development of an Artificially Intelligent Radiologist</h3>
 <p>Developed and compared multiple ML models (ResNets, DenseNets) for radiology image classification using Stanford’s MURA dataset of 40,561 MSK radiographs. Performed statistical evaluation (Cohen’s Kappa, ROC curves, AUROC, McNemar’s Test) to analyze model efficacy. Produced a <a href="../documents/APR.pdf" target="_blank">written research report</a> and presented findings in a ten-minute talk.</p>
 <p>Tools: Python, TensorFlow, Keras, OpenCV, scikit-learn, Matplotlib</p>
-<p>Dates: Sept 2022 – May 2023 </p></p>
+<p>Dates: Sept 2022 – May 2023 </p>
+<h2 id="other-projects">Other Projects</h2>
+<h3 id="4cast-prediction-market-platform">4cast Prediction Market Platform</h3>
+<p>Built a <a href="https://prediction-market-v1-six.vercel.app/" target="_blank">prediction market platform</a> using an LMSR automated market maker with bounded-loss guarantees, supporting multi-outcome markets. Verified the market maker's theoretical bounds with Monte Carlo simulations of randomized trading activity, with a Postgres-backed ledger and basic performance analytics layered on top.</p>
+<p>Dates: Feb 2026 - Present</p>
+<h3 id="neural-variational-monte-carlo-solver-ising-model">Neural Variational Monte Carlo Solver (Ising Model)</h3>
+<p>Built a <a href="https://github.com/3zik/Ising_VMC" target="_blank">Variational Monte Carlo solver</a> for the 1D transverse-field Ising model, using a Restricted Boltzmann Machine as a variational wavefunction ansatz. Trained the ansatz via Metropolis-Hastings sampling and gradient-based optimization, and validated the results against exact diagonalization.</p>
+<h3 id="ai-beamline-copilot-nsls-ii">AI Beamline Copilot (NSLS-II)</h3>
+<p>Designed a documentation-grounded assistant for Bluesky/Ophyd/Queue Server beamline workflows, combining a retrieval pipeline over an internal documentation corpus with local LLM generation. Built a multi-page interface for chat, documentation search, code explanation, plan generation, and troubleshooting, along with an evaluation harness to assess response quality.</p></p>
     </article>
 </section>
             <!-- endblock -->
